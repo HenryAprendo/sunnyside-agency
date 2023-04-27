@@ -1,0 +1,14 @@
+
+<div class="flex flex-col items-center mb-2 p-7 md:mb-0 md:h-[420px]">
+  <figure class="h-16 w-16 rounded-full overflow-hidden mb-7 ">
+    <img
+      [src]="client.image"
+      [alt]="client.name"
+    >
+  </figure>
+  <div class="text-center">
+    <p class="text-lg text-dark-grayish-blue mb-7">{{client.description}}</p>
+    <p class="text-very-dark-desaturated-blue font-bold text-xl mb-3">{{client.name}}</p>
+    <p class="text-sm text-grayish-blue">{{client.work}}</p>
+  </div>
+</div>

@@ -27,8 +27,30 @@ module.exports = {
     fontFamily: {
       sans: ['Barlow','sans-serif'],
       serif: ['Fraunces','serif']
+    },
+    backgroundImage: {
+      'mobile-img-graphic-design': "./src/assets/images/mobile/image-graphic-design.jpg",
+      'desktop-img-graphic-design': "./src/assets/images/desktop/image-graphic-design.jpg"
     }
+
   },
   plugins: [],
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 

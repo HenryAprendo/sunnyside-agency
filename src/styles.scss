@@ -6,8 +6,13 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer utilities {
+  .title {
+    font-family: 'Fraunces', serif;
+  }
+}
+
 body {
   font-family: 'Barlow', sans-serif;
-  // font-family: 'Fraunces', serif;
 }
 
