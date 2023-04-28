@@ -5,12 +5,20 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { ClientsComponent } from './components/clients/clients.component';
 import { ItemClientComponent } from './components/item-client/item-client.component';
+import { AdComponent } from './components/ad/ad.component';
+import { AdTitleComponent } from './components/ad-title/ad-title.component';
+import { AdContentComponent } from './components/ad-content/ad-content.component';
+import { AdLinkComponent } from './components/ad-link/ad-link.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ClientsComponent,
     ItemClientComponent,
+    AdComponent,
+    AdTitleComponent,
+    AdContentComponent,
+    AdLinkComponent,
   ],
   imports: [
     BrowserModule,
