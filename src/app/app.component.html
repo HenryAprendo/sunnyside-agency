@@ -1,7 +1,22 @@
 
 <div class="max-w-3xl mx-auto xl:max-w-7xl xl:h-screen">
   <header class="header h-screen relative ">
-    <nav class="h-16 mb-16">nav</nav>
+    <nav class="w-full h-16 px-7 mb-16 flex justify-between items-center md:px-10 xl:h-24">
+      <figure>
+        <img src="./../assets/images/logo.svg" alt="logo">
+      </figure>
+      <div class="flex items-center">
+        <ul class="hidden w-96 text-sm flex-row justify-end items-center gap-x-4 md:flex xl:text-base">
+          <li class="text-white hover:text-dark-moderate-cyan ">About</li>
+          <li class="text-white hover:text-dark-moderate-cyan ">Services</li>
+          <li class="text-white hover:text-dark-moderate-cyan ">Projects</li>
+          <li class="px-4 py-2 bg-white rounded-3xl hover:bg-dark-moderate-cyan hover:uppercase hover:text-white hover:text-xs">Contact</li>
+        </ul>
+        <div class="block md:hidden">
+          <img src="./../assets/images/icon-hamburger.svg" alt="icon menu">
+        </div>
+      </div>
+    </nav>
     <h1 class="title tracking-widest text-4xl font-bold text-white text-center uppercase xl:text-5xl">we are creative</h1>
     <img class="absolute top-80 left-1/2 md:top-60 xl:top-72" src="./../assets/images/icon-arrow-down.svg" alt="arrow-down">
   </header>
@@ -98,9 +113,9 @@
     <div class="text-center">
       <h2 class="font-bold text-4xl text-dark-desatured-cyan mb-8">sunnyside</h2>
       <ul class="flex gap-x-12 text-grayish-blue mb-20">
-        <li>About</li>
-        <li>Services</li>
-        <li>Projects</li>
+        <li class="cursor-pointer hover:text-white">About</li>
+        <li class="cursor-pointer hover:text-white">Services</li>
+        <li class="cursor-pointer hover:text-white">Projects</li>
       </ul>
       <ul class="flex justify-center gap-x-5">
         <img class="h-6 w-6 bg-dark-desatured-cyan"
