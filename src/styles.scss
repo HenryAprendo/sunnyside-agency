@@ -6,6 +6,12 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer components {
+  .container__secondary {
+    @apply py-14 px-7 bg-white flex flex-col gap-y-5 items-center justify-center md:items-start md:h-[310px] md:w-1/2 xl:h-[540px] xl:gap-y-12 xl:px-24
+  }
+}
+
 @layer utilities {
   .title {
     font-family: 'Fraunces', serif;

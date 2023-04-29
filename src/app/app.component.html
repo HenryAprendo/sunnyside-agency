@@ -1,19 +1,19 @@
 
-<div class="max-w-3xl mx-auto">
+<div class="max-w-3xl mx-auto xl:max-w-7xl xl:h-screen">
   <header class="header h-screen relative ">
     <nav class="h-16 mb-16">nav</nav>
-    <h1 class="title tracking-widest text-4xl font-bold text-white text-center uppercase">we are creative</h1>
-    <img class="absolute top-80 md:top-60 left-1/2 " src="./../assets/images/icon-arrow-down.svg" alt="arrow-down">
+    <h1 class="title tracking-widest text-4xl font-bold text-white text-center uppercase xl:text-5xl">we are creative</h1>
+    <img class="absolute top-80 left-1/2 md:top-60 xl:top-72" src="./../assets/images/icon-arrow-down.svg" alt="arrow-down">
   </header>
 
   <main>
     <!-- section one -->
     <section class="flex flex-col md:flex-row-reverse md:flex-wrap">
-      <div class="w-screen md:w-1/2 md:h-[310px] md:order-1">
+      <div class="w-screen md:w-1/2 md:h-[310px] md:order-1 xl:h-[540px]">
         <img class="w-full h-full object-cover" src="./../assets/images/mobile/image-transform.jpg" alt="">
       </div>
 
-      <div class="py-14 px-7 bg-white flex flex-col gap-y-5 items-center justify-center text-center md:w-1/2 md:h-[310px] md:order-2">
+      <div class="md:order-2 container__secondary">
         <app-ad-title>Transform your brand</app-ad-title>
         <app-ad-content>We are a full-service creative agency specializing in healping brands
           grow fast. Engage your clients through compelling visuals that
@@ -22,11 +22,11 @@
         <app-ad-link>learn more</app-ad-link>
       </div>
 
-      <div class="w-screen md:w-1/2 md:h-[310px] md:order-4">
+      <div class="w-screen md:w-1/2 md:h-[310px] md:order-4 xl:h-[540px]">
         <img class="w-full h-full object-cover" src="./../assets/images/mobile/image-stand-out.jpg" alt="">
       </div>
 
-      <div class="py-14 px-7 bg-white flex flex-col gap-y-5 items-center justify-center text-center md:h-[310px] md:w-1/2 md:order-3">
+      <div class="md:order-3 container__secondary">
         <app-ad-title>Stand out to the right audience</app-ad-title>
         <app-ad-content>Using a collaborative formula of designers, researches,
           photographers, videographers, and copywriters, we'll build
@@ -38,28 +38,28 @@
 
     <!-- section two -->
     <section class="flex flex-col md:flex-row">
-      <div class="relative w-screen md:h-[310px]">
+      <div class="relative w-screen md:h-[310px] xl:h-[540px]">
         <picture>
           <source srcset="./../assets/images/desktop/image-graphic-design.jpg" media="(min-width: 768px)">
           <img class="w-full h-full" src="./../assets/images/mobile/image-graphic-design.jpg" alt="">
         </picture>
-        <div class="absolute bottom-0 text-center px-6 md:px-16">
-          <h2 class="title mb-4 font-bold text-2xl text-dark-desatured-cyan md:text-base md:mb-2 ">Graphic Design</h2>
-          <p class="mb-14 text-dark-desatured-cyan text-base text-center font-medium md:text-sm md:mb-6">Great design makes you memorable. We deliver
+        <div class="absolute bottom-0 text-center px-6 md:px-16 xl:px-32">
+          <h2 class="title mb-4 font-bold text-2xl text-dark-desatured-cyan md:text-base md:mb-2 xl:mb-6 xl:text-3xl ">Graphic Design</h2>
+          <p class="mb-14 text-dark-desatured-cyan text-base text-center font-medium md:text-sm md:mb-6 xl:mb-20 xl:text-lg">Great design makes you memorable. We deliver
             artwork that underscores your brand message and
             captures potential clients' attention.
           </p>
         </div>
       </div>
 
-      <div class="relative w-screen md:h-[310px]">
+      <div class="relative w-screen md:h-[310px] xl:h-[540px]">
         <picture>
           <source srcset="./../assets/images/desktop/image-photography.jpg" media="(min-width: 768px)">
           <img class="w-full h-full " src="./../assets/images/mobile/image-photography.jpg" alt="">
         </picture>
-        <div class="absolute bottom-0 text-center px-6 md:px-16">
-          <h2 class="title mb-4 font-bold text-2xl text-dark-desatured-cyan md:text-base md:mb-2">Photography</h2>
-          <p class="mb-14 text-dark-desatured-cyan text-base text-center font-medium md:text-sm md:mb-6">
+        <div class="absolute bottom-0 text-center px-6 md:px-16 xl:px-32">
+          <h2 class="title mb-4 font-bold text-2xl text-dark-desatured-cyan md:text-base md:mb-2 xl:mb-6 xl:text-3xl">Photography</h2>
+          <p class="mb-14 text-dark-desatured-cyan text-base text-center font-medium md:text-sm md:mb-6 xl:mb-20 xl:text-lg">
             Increase your credibility by getting the most stunning, high-quality photos that improve your
             business image.
           </p>
@@ -97,7 +97,7 @@
   <footer class="flex flex-col justify-center items-center py-16 bg-dark-moderate-cyan">
     <div class="text-center">
       <h2 class="font-bold text-4xl text-dark-desatured-cyan mb-8">sunnyside</h2>
-      <ul class="flex gap-x-12 text-dark-desatured-cyan mb-20">
+      <ul class="flex gap-x-12 text-grayish-blue mb-20">
         <li>About</li>
         <li>Services</li>
         <li>Projects</li>
