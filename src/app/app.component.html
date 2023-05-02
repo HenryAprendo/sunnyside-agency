@@ -1,7 +1,6 @@
-
 <div class="max-w-3xl mx-auto xl:max-w-7xl xl:h-screen">
   <header class="header h-screen relative ">
-    <nav class="w-full h-16 px-7 mb-16 flex justify-between items-center md:px-10 xl:h-24">
+    <nav class="relative w-full h-16 px-7 mb-16 flex justify-between items-center md:px-10 xl:h-24">
       <figure>
         <img src="./../assets/images/logo.svg" alt="logo">
       </figure>
@@ -13,7 +12,17 @@
           <li class="px-4 py-2 bg-white rounded-3xl hover:bg-dark-moderate-cyan hover:uppercase hover:text-white hover:text-xs hover:cursor-pointer">Contact</li>
         </ul>
         <div class="block md:hidden">
-          <img src="./../assets/images/icon-hamburger.svg" alt="icon menu">
+          <img (click)="toggleMenu()" class="hover:cursor-pointer" src="./../assets/images/icon-hamburger.svg" alt="icon menu">
+          <!-- menu mobile -->
+          <div *ngIf="menu" class="absolute left-0 top-24 right-0 w-screen px-7 h-64">
+            <ul class="bg-white h-full flex flex-col items-center justify-around py-8 pl-5 border-t-[20px] border-t-[#3ebfff] border-r-[20px] border-r-white">
+              <li class="text-dark-grayish-blue hover:text-dark-moderate-cyan hover:cursor-pointer">About</li>
+              <li class="text-dark-grayish-blue hover:text-dark-moderate-cyan hover:cursor-pointer">Services</li>
+              <li class="text-dark-grayish-blue hover:text-dark-moderate-cyan hover:cursor-pointer">Projects</li>
+              <li class="px-4 py-2 bg-yellow rounded-3xl hover:bg-dark-moderate-cyan hover:uppercase hover:text-white hover:text-xs hover:cursor-pointer">Contact</li>
+            </ul>
+          </div>
+
         </div>
       </div>
     </nav>
@@ -135,6 +144,7 @@
   </footer>
 
 </div>
+
 
 
 

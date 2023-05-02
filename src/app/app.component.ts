@@ -7,4 +7,11 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'sunnyside-agency';
+
+  menu:boolean = true;
+
+  toggleMenu() {
+    this.menu = !this.menu;
+  }
+
 }
